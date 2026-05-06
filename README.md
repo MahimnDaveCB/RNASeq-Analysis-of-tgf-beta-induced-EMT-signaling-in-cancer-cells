@@ -1,0 +1,45 @@
+# RNA-Seq Analysis of TGF-β-Induced EMT Signaling in Cancer Cells
+
+## Overview
+
+This project performs RNA-seq differential expression and pathway analysis to investigate the molecular mechanisms underlying TGF-β–mediated epithelial-to-mesenchymal transition (EMT) and cancer progression.
+
+The analysis is based on transcriptomic data examining the role of the long noncoding RNA **LETS1** in potentiating TGF-β signaling in breast and lung cancer cells.
+
+Using DESeq2 and pathway analysis, the project identifies differentially expressed genes (DEGs), signaling pathways, and molecular interaction networks associated with EMT, migration, and tumor invasiveness.
+
+---
+## Data source:
+https://www.science.org/doi/10.1126/scisignal.adf1947
+
+# Repository Structure
+
+```text
+TGFb-EMT-RNAseq-Analysis/
+│
+├── data/
+│   ├── raw_counts.tsv
+│   └── design.tsv
+│
+├── figures/
+│   ├── Dispersion Estimates.png
+│   ├── Frequencies of padj values.png
+│   ├── GO Biological Process.png
+│   ├── Heatmap DEG.png
+│   ├── KEGG Pathway Enrichment.png
+|   ├── PCA Plot.png
+|   ├── PPI Interaction network
+│   └── Volcano plot.png
+│
+├── results/
+│   ├── GO_enrichment.tsv
+│   ├── KEGG_enrichment.tsv
+│   ├── deseq.result.all.tsv
+│   └── deseq_deg.tsv
+│
+├── scripts/
+│   └── tgf beta induced EMT RNASeq.R
+│
+└── README.md
+```
+
