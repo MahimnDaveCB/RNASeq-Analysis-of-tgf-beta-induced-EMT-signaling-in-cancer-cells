@@ -22,10 +22,6 @@ Using DESeq2 and pathway analysis, the project identifies differentially express
 ```text
 TGFb-EMT-RNAseq-Analysis/
 │
-├── data/
-│   ├── raw_counts.tsv
-│   └── design.tsv
-│
 ├── figures/
 │   ├── Dispersion Estimates.png
 │   ├── Frequencies of padj values.png
