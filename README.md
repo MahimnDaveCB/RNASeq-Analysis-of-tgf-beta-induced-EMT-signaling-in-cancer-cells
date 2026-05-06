@@ -9,9 +9,14 @@ The analysis is based on transcriptomic data examining the role of the long nonc
 Using DESeq2 and pathway analysis, the project identifies differentially expressed genes (DEGs), signaling pathways, and molecular interaction networks associated with EMT, migration, and tumor invasiveness.
 
 ---
-## Data source:
-https://www.science.org/doi/10.1126/scisignal.adf1947
-
+# Dataset Information
+- **Title:**  Transcriptome analysis of A549 cells upon lncRNA ectopic LETS1 expression
+- **Organism:** Homo sapiens
+- **Experiment Type:** Expression profiling by high throughput sequencing
+- **Data Source:** GEO Dataset (GSE203159)
+- **Data Contributors:**  Fan C, Kuipers T, Mei H, ten Dijke P
+- **Publication:** https://www.science.org/doi/10.1126/scisignal.adf1947
+  
 # Repository Structure
 
 ```text
